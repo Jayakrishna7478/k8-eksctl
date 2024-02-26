@@ -5,6 +5,7 @@ metadata:
   name: roboshop
   region: us-east-1
 
+availabilityZones: ["us-east-1a"]
 managedNodeGroups:
   - name: spot
     instancetype: t3.medium
