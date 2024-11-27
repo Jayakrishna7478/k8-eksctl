@@ -57,5 +57,3 @@ data "aws_ami" "centos8"{
         values = ["hvm"]
     }
 }
-
-i
