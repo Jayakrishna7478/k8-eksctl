@@ -4,8 +4,6 @@ module "ec2_instance" {
   name = "workstation-eksctl"
   ami = data.aws_ami.centos8.id
   instance_type          = "t2.micro"
-  #key_name               = "user1"
- #monitoring             = true
   vpc_security_group_ids = [aws_security_group.allow_eksctl.id]
   subnet_id              = "subnet-02fafc0a941c486cf"
   user_data               = file("workstation.sh")
