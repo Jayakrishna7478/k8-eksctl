@@ -8,5 +8,5 @@ availabilityZones: ["us-east-1b", "us-east-1a"]
 managedNodeGroups:
   - name: spot
     instancetype: m5.large
-    desiredCapacity: 3
+    desiredCapacity: 2
     spot: true
